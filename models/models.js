@@ -5,4 +5,9 @@ const userSChema=new mongoose.Schema({
     age:{typeof:Number},
 })
 
-module.exports=mongoose.model("USers",userSChema)
+
+
+module.exports=mongoose.model("users",userSChema)
+
+
+
