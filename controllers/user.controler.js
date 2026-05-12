@@ -19,6 +19,7 @@ const getUser=async(req,res)=>{
     const user=await users.find()
     res.send({data:user})
 }
+
 const postData=async(req,res)=>{
     const newUser = new users(req.body)
     newUser.save()
